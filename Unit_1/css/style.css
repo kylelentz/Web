@@ -1,3 +1,45 @@
+.main-outside-body {
+    margin: 2% 10%;
+    border: 1px solid;
+
+}
+.main-inside-body {
+    margin:0 10%;
+}
+
+.main-header {
+    text-align: center;
+    border: 1px solid;
+    margin:1% 10%;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.links {
+    margin-bottom: 1%;
+    text-align: right;
+}
+.main-photo {
+    margin: 20px auto;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
 h1 {
-    color: blue;
+    color: ;
 }
