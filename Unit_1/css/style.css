@@ -1,20 +1,57 @@
-.main-outside-body {
-    margin: 2% 10%;
+.main-body {
+ /*   margin: 2% 10%; */
     background-color: #F6FFE0;
  /*   border: 1px solid; */
 
 }
 .main-inside-body {
-    margin:0 10%;
+  /*  margin:0 10%; */
+    width:70%;
+    margin:0 auto;
+    overflow: auto;
 }
 
+.wrap {
+    min-height: calc(100vh - 82px);
+  }
+
+
 .main-header {
-    text-align: center;
- /*   border: 1px solid; */
-    margin:1% 10%;
+/*    text-align: center;
+    margin:1% 10%; */
     background-color: #BDD684;
     padding: 15px 15px;
 }
+
+.main-footer {
+    padding: 2em 2em;
+    background: #E2F0D6;
+    text-align: center;
+
+}
+/*About Floaters 46.5 */
+.about-text,
+.about-photo {
+    width:45%;
+}
+
+.about-text {
+    float: left;
+}
+
+.about-photo {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 260px;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.kyle {
+    border-radius: 5%;
+}
+
 
 .text-left {
     text-align: left;
@@ -24,11 +61,14 @@
 }
 
 .links {
+    margin-top: 1%;
     margin-bottom: 1%;
     text-align: right;
 }
 .main-photo {
     margin: 20px auto;
+    width: 720px;
+    height: 480px;
 }
 img {
     display: block;
@@ -36,17 +76,15 @@ img {
     width: 100%;
 }
 
-.main-about {
-
-}
-
+/*---Links---*/
 a {
     text-decoration: none;
-    text-decoration-color: #10222B;
 }
 a:visited {
-    text-decoration: #10222B;
+    color: #10222B;
 }
-h1 {
-    color: ;
+a:link {
+    color: #10222B;
 }
+
+/*--Media Quary--*/
