@@ -1,10 +1,122 @@
 /*--Body / Wrap--*/
 
-/*Base Mobile Layout*/
+body {
+    margin: 0;
+    background-color: #FAF5D9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #8c4646;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+
+
+li a {
+    display: block;
+    color: #FAF5D9;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#sidebar-right {
+    margin-left: 20%;
+    padding: 1px 16px;
+    height: 1000px;
+    width: 70%;
+}
+
+h1 {
+    padding:25px 0px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 350%;
+    background-color: #f2e394;
+}
+h3 {
+  padding-bottom: 25px;
+  font-size: 150%;
+}
+.main-text {
+    width: 50%;
+}
+
+.nav-heading {
+    color: #FAF5D9;
+    font-size: 200%;
+    padding-bottom: 10px;
+}
+
+.icon {
+    border-radius: 15%;
+    width: 75%;
+}
+
+.food-icon {
+    float: right;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 100%;
+}
+ .clearfix {
+    overflow: auto;
+}
+
+/*
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#sidebar-left {
+    position: fixed;
+    padding: 5px;
+    height: 100%;
+    width: 250px;
+    background: grey;
+    box-sizing: border-box;
+}
+
+#sidebar-right {
+    position: relative;
+    margin: auto;
+    width: 65%;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+
+}
+
 .wrap {
-    width: 90%;
     margin: 0 auto;
 }
+
+
+
+
+Base Mobile Layout
+
 
 #main-content, #sidebar-left, #sidebar-right {
     width: 100%;
@@ -17,7 +129,6 @@
         float: left;
         background-color: grey;
     }
-
 
     #sidebar-right {
         width: 75%;
@@ -32,7 +143,7 @@
 }
 
 
-/*-
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,7 +158,7 @@ ul {
 
 
 
-/*---Links---*/
+/*---Links---
 a {
     text-decoration: none;
 }
@@ -58,7 +169,7 @@ a:link {
     color: #10222B;
 }
 
-/*--Media Quary--*/
+--Media Quary--
     .clearfix::after {
         content: " ";
         display: table;
