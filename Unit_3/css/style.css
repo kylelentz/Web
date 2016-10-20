@@ -2,27 +2,32 @@
 
 body {
     margin: 0;
-    background-color: #FAF5D9;
+    background-image: url("img/Background-3.JPG");
+    background-repeat: no-repeat;
+    opacity: 0.9;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #8c4646;
+    padding: 200px 0 0 0;
+    width: 325px;
+    background-color: black;
     position: fixed;
     height: 100%;
     overflow: auto;
-    text-align: center;
+    text-align: left;
 }
 
-
+hr {
+    color: white;
+    width: 45%;
+}
 
 li a {
     display: block;
     color: #FAF5D9;
-    padding: 25px 16px;
+    padding: 25px 35px;
     text-decoration: none;
 }
 
@@ -38,26 +43,53 @@ li a:hover:not(.active) {
 }
 
 #sidebar-right {
-    margin-left: 20%;
+    margin-left: 22%;
     padding: 1px 16px;
     height: 1000px;
     width: 70%;
 }
 
 h1 {
-    padding:25px 0px;
-    margin-left: 0;
+    padding: 15px 0px;
+    margin-top: 300px;
+    margin-bottom: 50px;
     text-align: center;
-    font-size: 350%;
-    background-color: #f2e394;
+    font-size: 485%;
+    text-shadow: 3px 3px #000;
+    color: white;
+    background-color: grey;
+    opacity: 0.9;
 }
+
+
+/*
+.header-main {
+    padding:0px 0px;
+    margin-top: : 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 3px 3px #000;
+    color: white;
+    background-color: grey;
+    opacity: 0.9;
+}
+
+*/
+
 h3 {
-  padding-bottom: 25px;
   font-size: 150%;
+  color: white;
 }
 .main-text {
+    text-align: center;
     width: 50%;
+    color: white;
+    background-color: grey;
+    padding:2px 15px;
+    margin-top: 25px;
 }
+
 
 .nav-heading {
     color: #FAF5D9;
@@ -67,7 +99,9 @@ h3 {
 
 .icon {
     border-radius: 15%;
-    width: 75%;
+    width: 60%;
+    padding-left: 30px;
+    float: right;
 }
 
 .food-icon {
