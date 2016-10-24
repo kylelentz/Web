@@ -1,14 +1,38 @@
 /*--Body / Wrap--*/
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-    margin: 0;
     background-repeat: no-repeat;
     opacity: 0.9;
 }
-
+header {
+  background: black;
+  bottom:0;
+  left:0;
+  top:0;
+  position:fixed;
+  width:25%;
+}
+section {
+  padding:10em 0 0;
+}
+.wrap {
+  float:right;
+  width:75%;
+}
+#splash {
+  background: url(../images/Background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+#who-is-cultured {
+  background: url(http://flipp.ca/wp-content/uploads/2014/02/flipp-21.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  height:100vh;
+}
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 200px 0 0 0;
     width: 325px;
     background-color: black;
@@ -23,20 +47,20 @@ hr {
     width: 45%;
 }
 
-li a {
+nav a {
     display: block;
     color: #FAF5D9;
     padding: 25px 35px;
     text-decoration: none;
 }
 
-li a.active {
+nav a.active {
     background-color: #4CAF50;
     color: white;
 
 }
 
-li a:hover:not(.active) {
+nav a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
@@ -50,7 +74,6 @@ li a:hover:not(.active) {
 
 h1 {
     padding: 15px 0px;
-    margin-top: 125px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 485%;
@@ -105,7 +128,7 @@ h3 {
     border-radius: 15%;
     width: 60%;
     padding-left: 30px;
-    float: right;
+    /* float: right; */
 }
 
 .food-icon {
