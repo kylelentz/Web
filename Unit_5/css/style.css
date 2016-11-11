@@ -28,11 +28,13 @@ rgba(1, 23, 60, 0.95)
 .banner {
   background-color: #607D8B;
   background: url('../images/Baner-2.png');
-  background: linear-gradient(rgb(1, 23, 60), transparent 30%),
-              linear-gradient(0deg, #fff, transparent 3%),
-              rgb(1, 23, 60) url('../images/Baner-2.png') no-repeat center;
+  background: linear-gradient(rgb(1, 23, 60), transparent 30%),                linear-gradient(0deg, #fff, transparent 3%),                rgb(1, 22, 60) no-repeat center;
   background-size: cover;
   height: 800px;
+  text-align: center;
+  padding: 5em 0 0;
+  font-size: 3em;
+  color: #fff;
 }
 
 
@@ -57,37 +59,38 @@ nav a:hover:not(.active) {
 }
 
 #about-box {
-  background-color: #FFF;
-  height: 65vh;
-  width: 100%;
-  margin: 0 auto;
+  width: 600px;
+  margin: auto;
 }
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .about-heading {
   margin: 0 auto;
+  /* background: #fff; */
   color: #212121;
   font-family: 'Lora', serif;
   font-size: 25px;
-  text-align: center;
-  padding: 5em 6em;
+  /* text-align: center; */
+  /* padding: 5em 6em; */
 }
 
 .icon-bar {
-  margin: 0 auto;
-  background-color: #212121;
-  padding: 2em 1em;
+  margin: 2em auto 0;
+  /* background-color: #212121; */
+  overflow: auto;
+  /* padding: 2em 1em; */
 }
 
-.icon-image-b {
-  border-radius: 100%;
-  display: inline-block;
-  height: 200px;
-  padding: 0 8em;
+.icon-image {
+  border-radius: 50%;
+  float:left;
+  padding: 0 1em;
+  width:25%;
 }
 
 .icon-image-w {
@@ -116,20 +119,22 @@ h1 {
 
 
 #work-box {
-  height: 1000px;
+  /* height: 1000px; */
   width: 100%;
   background: #607D8B;
+  overflow: auto;
+  color: #fff;
 }
 
 .work-1 {
   margin: 0 auto;
-  max-width: 63.7%;
+  width: 1200px;
   padding-top: 100px;
 }
 
 .work-head {
   font-family: 'Alfa Slab One', cursive;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   font-size: 40px;
   text-align: center;
   letter-spacing: 2px;
@@ -142,19 +147,17 @@ h1 {
 
 
 #contact-box {
- background-color: #455A64;
-  height: 40em;
-  width: 100%;
-  margin: 0 auto;
-
+ margin: 0 auto;
+ overflow: auto;
+ padding: 0;
+ /* width: 1200px; */
 }
 
 
 .contact-box-left {
-  float: left;
-  width: 50%;
-  background: #212121;
-
+  /* float: left; */
+  /* width: 50%; */
+  /* background: #212121; */
 }
 
 .contact-box-right {
@@ -174,13 +177,9 @@ h1 {
 }
 
 .contact-photo {
-  height: 50%;
   width: 50%;
+  float: left;
   margin: auto;
-  display: inherit;
-  background: linear-gradient(#212121, transparent 90%),
-              #212121 url('../images/profile.png') no-repeat center;
-
 }
 
 .contact-head {
@@ -299,4 +298,17 @@ label.light {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
   border-radius: 100%;
+}
+p.logo {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.work-1 img {
+    width: 25%;
+    float: left;
+}
+
+section {
+    padding: 5em 0;
 }
