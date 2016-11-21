@@ -1,5 +1,5 @@
 /*--Body / Wrap--*/
-* { margin:0; padding:0; box-sizing:border-box; font-family: 'Roboto', sans-serif; }
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Gentium Book Basic', serif;}
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -27,8 +27,10 @@ rgba(1, 23, 60, 0.95)
 
 .banner {
   background-color: #607D8B;
-  background: url('../images/Baner-2.png');
-  background: linear-gradient(rgb(1, 23, 60), transparent 30%),                linear-gradient(0deg, #fff, transparent 3%),                rgb(1, 22, 60) no-repeat center;
+  background: url('../images/Banner3.png');
+  /*
+  background: linear-gradient(rgb(1, 23, 60),
+    transparent 30%),linear-gradient(0deg, #fff, transparent 3%),    rgb(1, 22, 60) no-repeat center; */
   background-size: cover;
   height: 800px;
   text-align: center;
@@ -36,6 +38,18 @@ rgba(1, 23, 60, 0.95)
   font-size: 3em;
   color: #fff;
 }
+
+.banner-p {
+  padding-top: .5em;
+  margin:0 auto;
+  color: white;
+}
+.alfa {
+  font-family:'Alfa Slab One', cursive;
+}
+
+
+/*-----NAV------*/
 
 
 nav {
@@ -58,22 +72,38 @@ nav a:hover:not(.active) {
     color: white;
 }
 
-#about-box {
-  width: 600px;
-  margin: auto;
-}
+
+/*-----H's------- */
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
   text-align: center;
+  letter-spacing: .3em;
+  font-size: 2em;
+  text-shadow: 3px 3px black;
+}
+
+h2 {
+  text-align: center;
+  font-family:'Gentium Book Basic', serif;
+  font-size: 2em;
+  color: black;
+  padding: 0 0 1em 0;
+}
+
+/*-----ABOUT SECTION------*/
+
+#about-box {
+  width: 800px;
+  margin: auto;
 }
 
 .about-heading {
   margin: 0 auto;
   /* background: #fff; */
   color: #212121;
-  font-family: 'Lora', serif;
+  font-family: 'Gentium Book Basic', serif;
   font-size: 25px;
   /* text-align: center; */
   /* padding: 5em 6em; */
@@ -93,35 +123,22 @@ h1 {
   width:25%;
 }
 
-.icon-image-w {
-  border-radius: 100%;
-  display: inline-block;
-  height: 200px;
-  padding: 0 8em;
-}
-
-.icon-image-wp {
-  border-radius: 100%;
-  display: inline-block;
-  height: 200px;
-  padding: 0 8em;
+.about-p{
+  font-family: 'Gentium Book Basic', serif;
+  padding-bottom: 2em;
+  line-height: 35px;
 
 }
 
-.icon-image-c {
-  border-radius: 100%;
-  display: inline-block;
-  height: 200px;
-  padding: 0 8em;
-}
 
 
 
+/*-----WORK BOX SECTION-----*/
 
 #work-box {
   /* height: 1000px; */
   width: 100%;
-  background: #607D8B;
+  background: #3c3c3c;
   overflow: auto;
   color: #fff;
 }
@@ -129,22 +146,21 @@ h1 {
 .work-1 {
   margin: 0 auto;
   width: 1200px;
-  padding-top: 100px;
+  padding-top: 4em;
 }
 
-.work-head {
-  font-family: 'Alfa Slab One', cursive;
+.work-heading {
+  font-family: 'Gentium Book Basic', serif;
   /* padding-top: 100px; */
-  font-size: 40px;
+  font-size: 3em;
   text-align: center;
   letter-spacing: 2px;
+  margin:0;
+  padding:0;
+  color: #fff;
 }
 
-.hr-work {
-  margin: auto;
-  width: 200px;
-}
-
+/*-----CONTACT BOX SECTION-------*/
 
 #contact-box {
  margin: 0 auto;
@@ -164,13 +180,12 @@ h1 {
   float: left;
   width: 50%;
   background-color: #fff;
-  height: 475.75px;
 }
 
 .contact-text {
   margin: 0 auto;
   color: #212121;
-  font-family: 'Lora', serif;
+  font-family: 'Gentium Book Basic', serif;
   font-size: 20px;
   max-height: 200px;
   padding: 3em;
@@ -188,18 +203,21 @@ h1 {
   padding-top: 1em;
 }
 
-.footer {
-    background-color: #455A64;
-    height: 25vh;
-    width: 100%;
-}
+/*---- NOT USED-----*/
+
 
  .clearfix {
     overflow: auto;
 }
 
+/*-----CONTACT FORM SECTION------*/
+
+.form-h2 {
+  color: white;
+}
+
 #contact-form {
-  background: #455A64;
+  background: #3c3c3c;
   padding: 50px;
 
 }
@@ -208,15 +226,14 @@ form {
   max-width: 700px;
   margin: 10px auto;
   padding: 10px 20px;
+
+  /*--No Background or Border--
   background: #f4f7f8;
   border-radius: 8px;
+  */
 }
 
-h2 {
-  margin: 0 0 30px 0;
-  text-align: center;
-  font-family: 'Lora', serif;
-}
+
 
 input[type="text"],
 input[type="password"],
@@ -239,7 +256,7 @@ select {
   padding: 15px;
   width: 100%;
   background-color: rgba(189, 189, 189, 0.9);
-  color: #757575;
+  color: #2f2f2f;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -278,7 +295,8 @@ legend {
 label {
   display: block;
   margin-bottom: 8px;
-  font-family: 'Lora', serif;
+  font-family: 'Gentium Book Basic', serif;
+  color: #fff;
 }
 
 label.light {
@@ -311,4 +329,26 @@ p.logo {
 
 section {
     padding: 5em 0;
+}
+
+
+/*-----FOOTER------*/
+
+footer {
+  color: black;
+
+}
+
+.footer-icon {
+  padding: 2em;
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-p {
+  text-align: center;
+  padding: 1em;
 }
