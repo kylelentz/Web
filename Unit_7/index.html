@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Studio | Design</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700" rel="stylesheet">
+    </head>
+    <body>
+        <header id="top" class="header">
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about-box">About</a></li>
+                    <li><a href="#work-box">Work</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                </ul>
+        </header>
+        <section class="banner">
+            <h1> Studio &amp; Design</h1>
+            <hr>
+                <p class="alfa">Custom Web Development</p>
+        </section>
+        <main class="main-content">
+            <section id="about-box">
+                    <h2> About our work </h2>
+                    <p class="about-p">
+                    Studio and Design is a solo entrepreneur design firm based out of Austin Tx that utilize's a host of web development platforms including Wordpress, Wix, Bootstrap and other custom designs to create cutting edge sites for the home and start up business. We offer a multitude of options with our sites which cover continual maintenance, site updates, and user support.
+                    </p>
+            </section>
+            <section id="work-box">
+                    <h2 class="work-heading">Projects and Designs</h2>
+                    <div class="work-icon">
+                        <div class="icons"><a href="#"><img src="images/Lg-crop-2.png" alt="Website 1"></a></div>
+                        <div class="icons"><a href="#"><img src="images/Lg-crop-1.png" alt="Website 2"></a></div>
+                        <div class="icons"><a href="#"><img src="images/Lg-crop-3.png" alt="Website 3"></a></div>
+                        <div class="icons"><a href="#"><img src="images/Lg-crop-4.png" alt="Website 3"></a></div>
+                    </div>
+            </section>
+            <section id="contact-box">
+                    <img class="contact-photo contact-box-left" src="images/About-1.png" alt="About Image">
+                    <div class="contact-box-right">
+                        <h2>Our Goal</h2>
+                        <p class="contact-text">Studio Designs goal is to establish a continued working relationship with our clients to satisfy the needs of any small business website. This begins from creating a unique site which is tailored to your needs, all the way through continual maintenance and updates on a per term basis.<br>
+                        Our product line has a number of options to choose from, starting with a single site project, to multi-level updates of content, media and social networking. No matter what your needs may be, each of the subscriptions and site plans will be custom tailored to fit any small business goals.
+                        </p>
+                    </div>
+            </section>
+            <section id="price-box">
+                <h2 class="header-price">Studio Design Pricing</h2>
+                <div class="colum-row">
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header">Basic</li>
+                        <li class="grey">$50 / month</li>
+                        <li>$499 Custom Site Design</li>
+                        <li>4 Web Page Site</li>
+                        <li>Monthly Site Update's</li>
+                        <li>Custom Domain Name</li>
+                        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header" style="background-color:#e24421">Pro</li>
+                        <li class="grey">$100 / month</li>
+                        <li>$749 Custom Site Design</li>
+                        <li>6 Web Page Site</li>
+                        <li>Bi Weekly Site Updates</li>
+                        <li>Custom Domain Name</li>
+                        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header">Premium</li>
+                        <li class="grey">$150 / month</li>
+                        <li>$995 Custom Site Design</li>
+                        <li>8 Web Page Site</li>
+                        <li>Weekly Site Updates</li>
+                        <li>Custom Domain Name</li>
+                        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-form">
+                <form action="index.html" method="post">
+                    <h2 class="form-h2">Contact Us!</h2>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+
+                        <label for="mail">E-Mail:</label>
+                        <input type="email" id="mail" name="user_email">
+
+                        <label for="url">Website:</label>
+                        <input type="url" id="url" name="user_url">
+
+                        <label for="bio">Project Idea:</label>
+                        <textarea id="bio" name="user_bio"></textarea>
+                        <button type="submit">Submit</button>
+
+                </form>
+            </section>
+            <footer>
+                    <div class="footer-icon">
+                     <div><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></div>
+                     <div><a href="https://www.twitter.com"><img src="images/twitter.png" alt="twitter"></a></div>
+                     <div><a href="https://www.github.com"><img src="images/github.png" alt="github"></a></div>
+                     <div><a href="https://www.google.com"><img src="images/google.png" alt="google +"></a></div>
+                    </div>
+                    <p class="footer-p">&copy; 2016 Stuido | Design</p>
+            </footer>
+        </main>
+
+        <script type="text/javascript">
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+        </script>
+
+    </body>
+</html>
+
+
+
+
