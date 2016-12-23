@@ -418,6 +418,9 @@ select {
   margin-bottom: 30px;
 }
 
+textarea {
+  font-family: Arial;
+}
 
 select {
   padding: 6px;
